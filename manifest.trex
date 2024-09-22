@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension 
+  id="com.example.downloadWorkbookData"
+  version="1.0"
+  xmlns="http://tableau.com/xml/extension">
+  
+  <!-- Information about the extension -->
+  <name>Download Workbook Data</name>
+  <description>Downloads the workbook data on button click and shows success or failure prompt.</description>
+  
+  <!-- Declare that this is a dashboard extension -->
+  <dashboard-extension 
+    version="1.0">
+    
+    <!-- Path to the main JavaScript file for the extension -->
+    <script src="script.js"></script>
+    
+    <!-- Optional icon -->
+    <icon>icon.png</icon>
+
+  </dashboard-extension>
+</extension>

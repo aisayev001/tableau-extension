@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Workbook Data</title>
+    <!-- Load Tableau Extensions API -->
+    <script src="https://cdn.jsdelivr.net/npm/tableau-api/dist/tableau.extensions.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>All DataSources</h1>
+    <!-- Container to list the data sources -->
+    <ul id="dataSourcesList">
+        <li>Loading...</li> <!-- Default loading message -->
+    </ul>
+    <!-- Status message to show success/failure messages -->
+    <div id="statusMessage"></div>
+
+    <!-- Include the main JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
