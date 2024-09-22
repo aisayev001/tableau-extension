@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension 
-    id="com.example.downloadWorkbookData"
-    version="1.0"
-    xmlns="http://tableau.com/xml/extension">
+<extension version="1.0" xmlns="http://tableau.com/xml/extension">
+  <id>com.example.downloadWorkbookData</id>
+  <name>Download Workbook Data</name>
+  <description>Downloads the workbook data on button click and shows success or failure prompt.</description>
+
+  <dashboard-extension version="1.0">
+    <!-- Link to your main HTML file -->
+    <script src="https://aisayev001.github.io/tableau-extension/index.html"></script>
     
-    <name>Download Workbook Data</name>
-    <description>Downloads the workbook data on button click and shows success or failure prompt.</description>
-    
-    <!-- Declare that this is a dashboard extension -->
-    <dashboard-extension version="1.0">
-        <!-- The path to your main extension file (index.html in your case) -->
-        <script src="https://aisayev001.github.io/tableau-extension/index.html"></script>
-        
-        <!-- Optional icon for the extension (make sure to reference the correct icon URL or remove this if you don't have one) -->
-        <icon>https://aisayev001.github.io/tableau-extension/icon.png</icon>
-    </dashboard-extension>
+    <!-- Optional icon for the extension -->
+    <icon>https://aisayev001.github.io/tableau-extension/icon.png</icon>
+  </dashboard-extension>
 </extension>
