@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul#dataSourcesList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul#dataSourcesList li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#statusMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
+
+#statusMessage.error {
+    color: red;
+}
